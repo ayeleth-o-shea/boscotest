@@ -21,7 +21,7 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.
 
 $controller = new \Boscotest\Controller([
 				new XlsHelper([
-					'source' => $_SERVER["DOCUMENT_ROOT"].'/sample/resources/clients_list.xlsx',
+					'source' => 'clients_list.xlsx',
 					'limit' => 10,
 					'startRow' => 2
 				])
